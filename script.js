@@ -4,12 +4,12 @@ const img = document.querySelector(".img");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 const secondQuestion = document.querySelectorAll(".question")[1];
-yesBtn.addEventListener("click", () => {
-    question.innerHTML = "I like you";
+yesBtn.addEventListener("click", ( ) => {
+    question.innerHTML = "Thank you for accepting my invitation, see you this sunday!!";
     secondQuestion.innerHTML = "How about you?";
-    img.src = "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/AskCrush1.png";
-})
-noBtn.addEventListener("mouseover", ( ) => {
+    img.src = "https://gifdb.com/images/high/animated-pusheen-thank-you-cat-zyvngsxio2nkydxo.gif";
+});
+noBtn.addEventListener("click", ( ) => {
     const wrapperRect = wrapper.getBoundingClientRect();
     const noBtnRect = noBtn.getBoundingClientRect( );
     const maxX = window.innerWidth- noBtnRect.width;
